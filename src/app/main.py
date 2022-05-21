@@ -34,4 +34,4 @@ def cotacao():
     preco = modelo.predict([dados_input])
     return jsonify(preco=preco[0])
 
-app.run(debug=True, host='0.0.0.0') ## resolve o problema em todos os ambientes
+app.run(debug=True) ## resolve o problema em todos os ambientes
