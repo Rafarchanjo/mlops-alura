@@ -1,7 +1,7 @@
 mlops-deploy
 ==============================
 
-curso mlops deploy
+curso mlops deploy alura
 
 Project Organization
 ------------

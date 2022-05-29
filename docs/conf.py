@@ -186,7 +186,7 @@ latex_documents = [
     ('index',
      'mlops-deploy.tex',
      u'mlops-deploy Documentation',
-     u"rafael.archanjo", 'manual'),
+     u"julio.oliveira", 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -216,7 +216,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'mlops-deploy', u'mlops-deploy Documentation',
-     [u"rafael.archanjo"], 1)
+     [u"julio.oliveira"], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -230,8 +230,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'mlops-deploy', u'mlops-deploy Documentation',
-     u"rafael.archanjo", 'mlops-deploy',
-     'curso mlops deploy', 'Miscellaneous'),
+     u"julio.oliveira", 'mlops-deploy',
+     'curso mlops deploy alura', 'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.
