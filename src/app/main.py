@@ -22,8 +22,8 @@ def home():
 @basic_auth.required
 def sentimento(frase):
     tb = TextBlob(frase)
-    tb_en = tb.translate(to='en')
-    polaridade = tb_en.sentiment.polarity
+##    tb_en = tb.translate(to='en')
+    polaridade = tb.sentiment.polarity
     return "polaridade: {}".format(polaridade)
 
 @app.route('/cotacao/', methods=['POST'])
@@ -34,4 +34,4 @@ def cotacao():
     preco = modelo.predict([dados_input])
     return jsonify(preco=preco[0])
 
-app.run(debug=True, host='0.0.0.0')
+app.run(port=int(os.environ.get("PORT", 5000)),host='0.0.0.0',debug=True)
